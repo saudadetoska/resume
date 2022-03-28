@@ -1,0 +1,121 @@
+/* General */
+
+body {
+  margin: 0;
+}
+
+.pulsing {
+  animation: blinkingText 3.0s infinite;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: rgb(182, 182, 182);
+  }
+
+  50% {
+    color: #222831;
+  }
+
+  100% {
+    color: rgb(182, 182, 182);
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 3rem 3rem 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 2;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin: auto;
+  list-style: none;
+  line-height: 2;
+  padding: .75rem;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.disabled {
+  color: rgb(182, 182, 182);
+}
+
+.disabled:hover {
+  color: #222831;
+}
+
+/* Header */
+
+#header,
+#navbar {
+  text-align: center;
+  background-color: #222831;
+  font-size: 1.5rem;
+}
+
+#name {
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+  text-align: center;
+  color: #47f6ff;
+  font-size: 4rem;
+}
+
+.profile-img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.white-heading {
+  color: #fff;
+}
+
+.socials {
+  color: #fff;
+  padding: 1rem;
+}
+
+.socials:hover {
+  color: #47f6ff;
+}
+
+#titles {
+  color: #EEEEEE;
+  font-size: 2rem;
+}
+
+/* Projects */
+.card {
+  margin: 0 2rem 2rem;
+}
+
+.card-text {
+  color: rgb(168, 168, 168);
+}
+
+/* Footer */
+
+#footer {
+  color: #fff;
+  background-color: #393E46;
+}
