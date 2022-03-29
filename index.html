@@ -5,7 +5,8 @@
   <title>Avery Yang</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/7970e9d99e.js" crossorigin="anonymous"></script>
@@ -29,7 +30,7 @@
 </head>
 
 <body>
-
+<!-- Navbar -->
   <section id="navbar">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
@@ -59,28 +60,37 @@
   </section>
 
   <section id="header">
-    <!-- NavBar -->
-    <div class>
-      <!-- Header -->
-      <img class="profile-img" src="images/8bit_profile.png" alt="8bit-profile">
-      <h1 id="name">im avery</h1>
-      <h3 class="white-heading"></h3>
-      <div>
-        <!-- Socials -->
-        <div>
-          <a title="gmail" rel="noopener noreferrer" href="mailto:averyyang2674@gmail.com" target="_blank"><i
-              class="socials fa-solid fa-2x fa-envelope"></i></a>
-          <a title="linkedin" rel="noopener noreferrer" href="https://www.linkedin.com/in/steve-y-94397a220/" target="_blank"><i
-              class="socials fa-brands fa-2x fa-linkedin-in"></i></a>
-          <a title="github" rel="noopener noreferrer" href="https://github.com/yang2674" target="_blank"><i class="socials fa-brands fa-2x fa-github"></i>
-          </a>
+
+    <!-- Flip Card -->
+    <div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/8bit_profile.png" class="center profile-img" alt="avatar">
+          </div>
+          <div class="flip-card-back profile-img">
+            <img src="images/profile.png" class="center profile-img" alt="avatar">
+          </div>
         </div>
       </div>
+      <h1 id="name">im avery</h1>
+      <h3 class="white-heading"></h3>
     </div>
   </section>
 
+  <section id="about">
+    <div>
+      <h2 class="header">about</h2>
+      <h3 class="center">
+        curious. ambitious. driven. reflective.
+      </h3>
+      <p class="center"></p>
+    </div>
+  </section>
+
+
   <section id="skills">
-    <h2 class="header">tools + languages</h2>
+    <h2 class="header">skills</h2>
     <div class="center">
       <ul>
         <li><i class="fa-brands fa-4x fa-html5"></i></li>
@@ -97,58 +107,63 @@
   <section id="projects">
     <h2 class="header">projects</h2>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="center col-sm-4">
         <div class="card">
           <div class="card-body">
             <h5 class="center card-title">tindog</h5>
             <p class="card-text">tinder, but for dogs</p>
-            <a rel="noopener noreferrer" href="https://yang2674.github.io/tindog/" target="_blank" class="btn btn-primary">link</a>
+            <a rel="noopener noreferrer" href="https://yang2674.github.io/tindog/" target="_blank"
+              class="btn btn-primary">woof</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="center col-sm-4">
         <div class="card">
           <div class="card-body">
             <h5 class="center card-title">drum kit</h5>
             <p class="card-text">an interactive drum kit</p>
-            <a rel="noopener noreferrer" href="https://yang2674.github.io/drum-kit/" target="_blank"  class="btn btn-primary">link</a>
+            <a rel="noopener noreferrer" href="https://yang2674.github.io/drum-kit/" target="_blank"
+              class="btn btn-primary">badum-tsh</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="center col-sm-4">
         <div class="card">
           <div class="card-body">
             <h5 class="center card-title">dice game</h5>
             <p class="card-text">a simple dice game</p>
-            <a rel="noopener noreferrer" href="https://yang2674.github.io/dice-game/" target="_blank" class="btn btn-primary">link</a>
+            <a rel="noopener noreferrer" href="https://yang2674.github.io/dice-game/" target="_blank"
+              class="btn btn-primary">snake-eyes</a>
           </div>
         </div>
       </div>
     </div>
 
-    <section id="about">
-      <div>
-          <h2 class="header">about</h2>
-          <h3 class="center">
-              curious. driven. self-disciplined. growth mindset.
-          </h3>
-      </div>
-  </section>
 
-  <section id="interests">
+    <section id="interests">
       <h3 class="header">interests + hobbies</h3>
       <ul class="center">
-          <li>running + weight lifting</li>
-          <li>electric vehicles</li>
-          <li>cryptocurrency</li>
-          <li>intermittent fasting</li>
-          <li>plant-based meals</li>
+        <li>running + weight lifting</li>
+        <li>electric vehicles</li>
+        <li>cryptocurrency</li>
+        <li>plant-based meals + intermittent fasting</li>
+        <li>podcasts + documentaries</li>
       </ul>
-  </section>
+    </section>
 
   </section>
 
   <section id="footer">
+    <!-- Socials -->
+    <div class="center">
+      <a title="gmail" rel="noopener noreferrer" href="mailto:averyyang2674@gmail.com" target="_blank"><i
+          class="socials fa-solid fa-2x fa-envelope"></i></a>
+      <a title="linkedin" rel="noopener noreferrer" href="https://www.linkedin.com/in/steve-y-94397a220/"
+        target="_blank"><i class="socials fa-brands fa-2x fa-linkedin-in"></i></a>
+      <a title="github" rel="noopener noreferrer" href="https://github.com/yang2674" target="_blank"><i
+          class="socials fa-brands fa-2x fa-github"></i>
+      </a>
+    </div>
     <!-- Copyright Info -->
     <h3>© 2022 Avery Yang</h3>
   </section>
