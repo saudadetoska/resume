@@ -2,170 +2,82 @@
 <html lang="en">
 
 <head>
-  <title>Avery Yang</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avery Yang</title>
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/7970e9d99e.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-  </script>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/styles.css">
-
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<!-- Navbar -->
-  <section id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a rel="noreferrer" class="navbar-brand"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a rel="noreferrer" class="nav-link active" aria-current="page" href="#navbar">home</a>
-            </li>
-            <li class="nav-item">
-              <a rel="noreferrer" class="nav-link" href="#about">about</a>
-            </li>
-            <li class="nav-item">
-              <a rel="noreferrer" class="nav-link" href="#skills">skills</a>
-            </li>
-            <li class="nav-item">
-              <a rel="noreferrer" class="nav-link" href="#projects">projects</a>
-            </li>
-          </ul>
-        </div>
+  <section id="header" class="text-white">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <div><img class="d-block m-5 img-fluid mx-auto rounded-circle" src="images/profile.png" alt="profile picture">
       </div>
-    </nav>
-  </section>
-
-  <section id="header">
-
-    <!-- Flip Card -->
-    <div>
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="images/8bit_profile.png" class="center profile-img" alt="avatar">
-          </div>
-          <div class="flip-card-back profile-img">
-            <img src="images/profile.png" class="center profile-img" alt="avatar">
-          </div>
-        </div>
+      <div>
+        <h1 class="text-white">Hi, I'm Avery 👋🏽</h1>
       </div>
-      <h1 id="name">im avery</h1>
-      <h3 class="white-heading"></h3>
+    </div>
+    <h3 class="text-center mb-5">I'm a self-taught developer aspiring to make the world a better place!</h3>
+    <div class="pb-4">
+      <ul class="d-flex px-3 pb-3 flex-column align-items-center">
+        <h5 class="my-2">Cryptocurrency💱💲</li>
+          <h5 class="my-2">Electric Vehicles⚡🚗</li>
+            <h5 class="my-2">Running + Working Out🏃🏽🏋🏽</li>
+              <h5 class="my-2">Plant-based nutrition🍅🍌🫑</li>
+                <h5 class="my-2">Podcasts + Documentaries📽️</li>
+      </ul>
+      <button type="button" class="d-block mb-3 mx-auto btn-lg btn-dark"><a href="#about"
+          class="text-decoration-none">Learn More</a></button>
     </div>
   </section>
 
-  <section id="about">
-    <div>
-      <h2 class="header">about</h2>
-      <h3 class="center">
-        curious. ambitious. driven. reflective.
-      </h3>
-      <p class="center"></p>
-    </div>
+  <section id="about" class="d-flex flex-column align-items-center">
+    <h1 class="p-5 d-block text-center text-black">About Me</h1>
+    <h3 class="d-flex flex-column align-items-center"><a href="https://www.hmongamericancenter.org/hmong-history/"
+        target="_blank">Hmong-American</a>
+      <a href="https://www.pewresearch.org/social-trends/2021/05/18/first-generation-college-graduates-lag-behind-their-peers-on-key-economic-outcomes/"
+        target="_blank">1st-Gen College Student</a>
+      <a href="https://ulinkremit.com/blog-second-generation-immigrant-experience/" class="mb-4" target="_blank">2nd-Gen
+        Immigrant</a></h3>
+    <h4 class="text-black w-75">Info to come...</h4>
   </section>
 
 
-  <section id="skills">
-    <h2 class="header">skills</h2>
-    <div class="center">
-      <ul>
+  <section id="skills" class="text-white">
+    <h1 class="p-5 d-block text-center">Skills</h1>
+    <div class="skills">
+      <ul class="d-flex flex-row justify-content-evenly list-unstyled">
         <li><i class="fa-brands fa-4x fa-html5"></i></li>
         <li><i class="fa-brands fa-4x fa-css3-alt"></i></li>
-        <li><i class="fa-brands fa-4x fa-js-square"></i></li>
         <li><i class="fa-brands fa-4x fa-bootstrap"></i></li>
-        <li><i class="fa-brands fa-4x fa-github-square"></i></li>
-        <li><i class="fa-brands fa-4x fa-python pulsing"></i></li>
-        <li><i class="fa-brands fa-4x fa-java pulsing"></i></li>
+        <li><i class="fa-brands fa-4x fa-js-square blink"></i></li>
+        <li><i class="fa-brands fa-4x fa-python blink"></i></li>
       </ul>
     </div>
-  </section>
 
+  </section>
   <section id="projects">
-    <h2 class="header">projects</h2>
-    <div class="row">
-      <div class="center col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="center card-title">tindog</h5>
-            <p class="card-text">tinder, but for dogs</p>
-            <a rel="noopener noreferrer" href="https://yang2674.github.io/tindog/" target="_blank"
-              class="btn btn-primary">woof</a>
-          </div>
-        </div>
-      </div>
-      <div class="center col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="center card-title">drum kit</h5>
-            <p class="card-text">an interactive drum kit</p>
-            <a rel="noopener noreferrer" href="https://yang2674.github.io/drum-kit/" target="_blank"
-              class="btn btn-primary">badum-tsh</a>
-          </div>
-        </div>
-      </div>
-      <div class="center col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="center card-title">dice game</h5>
-            <p class="card-text">a simple dice game</p>
-            <a rel="noopener noreferrer" href="https://yang2674.github.io/dice-game/" target="_blank"
-              class="btn btn-primary">snake-eyes</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <section id="interests">
-      <h3 class="header">interests + hobbies</h3>
-      <ul class="center">
-        <li>running + weight lifting</li>
-        <li>electric vehicles</li>
-        <li>cryptocurrency</li>
-        <li>plant-based meals + intermittent fasting</li>
-        <li>podcasts + documentaries</li>
-      </ul>
-    </section>
+    <h1 class="p-5 d-block text-center text-black">Projects</h1>
 
   </section>
 
-  <section id="footer">
-    <!-- Socials -->
-    <div class="center">
-      <a title="gmail" rel="noopener noreferrer" href="mailto:averyyang2674@gmail.com" target="_blank"><i
-          class="socials fa-solid fa-2x fa-envelope"></i></a>
-      <a title="linkedin" rel="noopener noreferrer" href="https://www.linkedin.com/in/steve-y-94397a220/"
-        target="_blank"><i class="socials fa-brands fa-2x fa-linkedin-in"></i></a>
-      <a title="github" rel="noopener noreferrer" href="https://github.com/yang2674" target="_blank"><i
-          class="socials fa-brands fa-2x fa-github"></i>
-      </a>
-    </div>
-    <!-- Copyright Info -->
-    <h3>© 2022 Avery Yang</h3>
+  <section id="footer" class="d-flex flex-column justify-content-center text-white text-center">
+    <ul class="d-flex flex-row justify-content-center list-unstyled flex-wrap">
+      <li class="mx-4"><a href="mailto:averyyang2674@gmail.com?" target="_blank"><i class="fa-solid fa-3x fa-envelope"></i></a></li>
+      <li class="mx-4"><a href="https://github.com/yang2674?tab=repositories" target="_blank"><i class="fa-brands fa-3x  fa-github"></i></a></li>
+      <li class="mx-4"><a href="https://www.linkedin.com/in/steve-y-94397a220/" target="_blank"><i class="fa-brands fa-3x  fa-linkedin-in"></i></a></li>
+    </ul>
+    <h3>©️2022 Avery Yang</h3>
   </section>
 
 
