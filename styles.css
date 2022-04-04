@@ -22,8 +22,12 @@ section {
   border-color: #e5e7eb;
 }
 
+i {
+  color: white;
+}
+
 i:hover {
-  color:aqua;
+  color:cornflowerblue;
 }
 
 /* Flex Container */
